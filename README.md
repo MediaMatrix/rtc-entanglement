@@ -14,9 +14,9 @@ When to peerconnections are entangled, actions happening on one of them are refl
      |             |                  |              |
      |      +----+ |     datachannel  | +----+       |
      |      | PC <----------------------> PC |       |
-     |      +--^-+ |                  | +----+       |
-     +--------+ +--+                  +--+ +---------+
-               +                          +
+     |      +--^-+ |                  | +-+--+       |
+     +--------+|+--+                  +--+|+---------+
+               |                          |
                +                          v
              addTrack()                 onaddtrack()
 
